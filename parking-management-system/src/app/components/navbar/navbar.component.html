@@ -1,14 +1,20 @@
-<header class="bg-white flex justify-between">
+<header class="bg-slate-300 flex justify-between">
     <div class="container mx-auto flex justify-between  items-center ">
         <div class='w-full h-full flex justify-center items-center'>
             <a routerLink='/'>
-                <img class="w-3/5 h-2/3 " src="../../../assets/image/logo.png" alt="logo">
+                <img class="w-2/5 h-full " src="../../../assets/image/logo.png" alt="logo">
             </a>
         </div>
         <nav class="text-black ">
             <ul class="flex flex-col lg:flex-row list-none ml-auto text-black ">
                 <li class="nav-item  cursor-pointer hove hover:text-cyan-700 relative">
-                    <a class="w-full h-full block py-4 px-9 text-lg font-semibold">Home</a>
+                    <a class="w-full h-full block py-4 px-9 text-base font-semibold" routerLink="AddVehicleComponent">Add Vehicle</a>
+                </li>
+                <li class="nav-item  cursor-pointer hove hover:text-cyan-700 relative">
+                    <a class="w-full h-full block py-4 px-9 text-base font-semibold" routerLink="parkingDetails">Parking Vehicle Details</a>
+                </li>
+                <li class="nav-item  cursor-pointer hove hover:text-cyan-700 relative">
+                    <a class="w-full h-full block py-4 px-9 text-lg font-semibold" routerLink="dashboard">Dashboard</a>
                 </li>
             </ul>
         </nav>
